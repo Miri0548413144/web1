@@ -3,10 +3,8 @@
     public class Event
     {
 
-        public int Idch { get; set; }
+        public int IdMiri { get; set; }
         public string Title { get; set; }
-
-        public int Id { get; set; }
         public string TitleMiri { get; set; }
         public DateTime Date { get; set; }
 
