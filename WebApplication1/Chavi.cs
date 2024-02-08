@@ -2,6 +2,7 @@
 {
     public class Chavi
     {
+        public int MyProperty { get; set; }
 
     }
 }
