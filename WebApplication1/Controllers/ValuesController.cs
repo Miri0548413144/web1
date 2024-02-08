@@ -41,12 +41,19 @@ namespace WebApplication1.Controllers
 
         }
 
-        // DELETE api/<ValuesController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-            Event ev = events.Find(item => item.Id == id);
-            events.Remove(ev);
-        }
+        // // DELETE api/<ValuesController>/5
+        // [HttpDelete("{id}")]
+        // public void Delete(int id)
+        // {
+        //     Event ev = events.Find(item => item.Id == id);
+        //     events.Remove(ev);
+        // }
+          // // DELETE api/<ValuesController>/5
+        // [HttpDelete("{id}")]
+        // public void Delete(int id)
+        // {
+        //     Event ev = events.Find(item => item.Id == id);
+        //     events.Remove(ev);
+        // }
     }
 }
