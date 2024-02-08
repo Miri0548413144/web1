@@ -2,7 +2,7 @@
 {
     public class Event
     {
-        public int Id { get; set; }
+        public int Idch { get; set; }
         public string Title { get; set; }
         
     }
